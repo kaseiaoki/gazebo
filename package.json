@@ -10,7 +10,7 @@
     "next": "latest",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "wpapi": "latest"
+    "wpapi": "1.2.1"
   },
   "license": "MIT"
 }
