@@ -2,12 +2,14 @@
   "name": "gazebo",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "bulma": "^0.9.1",
+    "next": "^10.0.0",
+    "node-sass": "^5.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "wpapi": "1.2.1"
