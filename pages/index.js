@@ -24,9 +24,15 @@ export async function getStaticProps() {
 export default function Page({ id,title, content }) {
   return (
     <>
+    <section class="hero is-primary is-bold">
+        <div class="hero-body">
+          <div class="container">
+          <h1 class="title">{title} </h1>
+          <h2 class="subtitle">id : {id}</h2>
+          </div>
+        </div>
+      </section>
       <section class="section">
-        <h1 class="title">{title} </h1>
-        <h2 class="subtitle">id : {id}</h2>
         <div className='container'
           dangerouslySetInnerHTML={{ __html: content }}
         >
